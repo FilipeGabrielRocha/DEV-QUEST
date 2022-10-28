@@ -1,0 +1,14 @@
+.ps {
+    background-color: blue;
+    color: white;
+}
+
+.pc {
+    background-color: orange;
+    color: yellow;
+}
+
+.ps span {
+    font-size: 24px;
+    color: orange;
+}

@@ -1,0 +1,28 @@
+/* #descricao-videogame {
+    background-color: orange;
+}
+
+#titulo-videogame {
+    color: blue;
+    background-color: gray;
+}
+
+#preco-videogame {
+    background-color: green;
+    color: white;
+} */
+
+.descricao {
+    background-color: orangered;
+    color: blue;
+}
+
+.titulo {
+    color: blue;
+    background-color: gray;
+}
+
+.preco {
+    background-color: green;
+    color: white;
+}
