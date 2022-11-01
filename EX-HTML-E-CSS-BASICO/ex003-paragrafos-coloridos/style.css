@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.paragrafo {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.fundo-padrao {
+    background-color: #F5F5F5;
+}
+
+.fundo-destacado {
+    background-color: #F0CCE2;
+}
