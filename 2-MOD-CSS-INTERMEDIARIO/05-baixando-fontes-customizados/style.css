@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'hey comic';
+    src: url(fonts/Hey\ Comic.otf), url(fonts/Hey\ Comic.ttf);
+}
+
+p {
+    font-family: 'hey comic';
+}
