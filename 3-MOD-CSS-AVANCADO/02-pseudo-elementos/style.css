@@ -1,0 +1,24 @@
+img {
+    width: 32px;
+}
+
+p::first-letter {
+    color: brown;
+}
+
+p::first-line {
+    color: blue;
+}
+
+li::marker {
+    color: red;
+    font-size: 23px;
+}
+
+h2.opa2::before {
+    content: url(img/download.png)
+}
+
+h2.opa3::after {
+    content: url(img/download.png)
+}
