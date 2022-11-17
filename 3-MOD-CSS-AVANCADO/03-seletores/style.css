@@ -1,0 +1,23 @@
+p{  
+    font-size: 24px;
+}
+
+h1 {
+    color: brown;
+}
+
+.classe {
+    color: green;
+}
+
+#id {
+    color: blueviolet;
+}
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, .classe, #id {
+    font-family: 'Times New Roman', Times, serif;
+}
