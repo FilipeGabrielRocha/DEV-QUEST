@@ -1,0 +1,32 @@
+p:first-child {
+    font-size: 30px;
+}
+
+p:last-child {
+    color: orange;
+    font-size: 24px;
+}
+
+p:not(.padrao) {
+    color: yellowgreen;
+}
+
+li:nth-child(odd) {
+    color: blueviolet;
+}
+
+li:nth-child(even) {
+    color: blue;
+}
+
+.ultimo li:nth-last-child(odd) {
+    color: blueviolet;
+}
+
+.ultimo li:nth-last-child(even) {
+    color: blue;
+}
+
+p:only-child {
+    color: brown;
+}
