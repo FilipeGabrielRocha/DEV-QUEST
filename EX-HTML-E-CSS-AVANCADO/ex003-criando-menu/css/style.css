@@ -1,0 +1,74 @@
+@charset "UFT-8";
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu li a {
+    padding: 10px;
+}
+
+.menu li a:hover {
+    color: white;
+    background-color: #5BC241;
+}
+
+.selecionado {
+    background-color: #5BC241;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+@media (max-width: 640px) {
+
+    body {
+        font-size: 24px;
+    }
+
+    .container-logo {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    header {
+        display: block;
+        text-align: center;
+    }
+
+    .menu {
+        display: block;
+    }
+    .menu ul {
+        text-align: center;
+    }
+
+    .menu li {
+        margin: 30px;
+    }
+
+    .menu .selecionado {
+        margin-left: 0px;
+    }
+}
