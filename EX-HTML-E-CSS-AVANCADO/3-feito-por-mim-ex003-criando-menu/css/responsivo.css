@@ -16,8 +16,11 @@
     }
 
     .menu li {
-
         margin-bottom: 50px;
+    }
+
+    .menu li:last-child {
+        margin-top: 17px;
     }
 
     .menu li a {
