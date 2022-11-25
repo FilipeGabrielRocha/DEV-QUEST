@@ -1,36 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    
     <title>Profile Card</title>
 </head>
 <body>
-    <main class="container">
-        <div class="card">
-            <div class="profile-informations">
+    <main>
+        <div class="container">
+            <div class="informacoes">
                 <img src="img/filipe-rocha.jpg" alt="">
-                <p>Filipe Rocha <span class="age">22</span></p>
-                <span class="city">Jacareí</span>
+
+                <h3 class="nome">Filipe Rocha <span class="idade cor-tipo">22</span></h3>
+                <h3 class="cidade cor-tipo">Jacareí</h3>
             </div>
             <hr>
-            <ul class="profile-numbers">
-                <li class="info">
-                    <p class="counter">80K</p>
-                    <span class="counter-type">Followers</span>
-                </li>
-                <li class="info">
-                    <p class="counter">803K</p>
-                    <span class="counter-type">Likes</span>
-                </li>
-                <li class="info">
-                    <p class="counter">1.4K</p>
-                    <span class="counter-type">Photos</span>
-                </li>
-            </ul>
+            <div class="informacoes-tipo">
+                <div class="info">
+                    <div class="seguidores">
+                        <h3>80K</h3>
+                        <p class="cor-tipo">Seguidores</p>
+                    </div>
+                    <div class="gosteis">
+                        <h3>803K</h3>
+                        <p class="cor-tipo">Gosteis</p>
+                    </div>
+                    <div class="fotos">
+                        <h3>1.4K</h3>
+                        <p class="cor-tipo">Fotos</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 </body>

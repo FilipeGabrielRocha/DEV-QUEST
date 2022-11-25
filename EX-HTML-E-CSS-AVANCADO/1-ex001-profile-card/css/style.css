@@ -1,77 +1,70 @@
-@charset "UTF-8";
-
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
 :root {
+    --font-padrao: 'Kumbh Sans', sans-serif;
     --background-color: hsl(185, 75%, 39%);
     --text-color: hsl(227, 10%, 46%);
-    --font: 'VT323', monospace;
-    --card-color: hsl(0, 0%, 59%)
+    --cor1: #ffffff;
 }
 
 body {
-    background-color: var(--background-color);
-    height: 100vh;
-    font-family: var(--font);
-    font-size: 18px;
+    font-family: var(--font-padrao);
 }
 
-hr {
-    width: 100%;
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+}
+
+.cor-tipo {
+    color: var(--text-color);
+    font-weight: 400;
+}
+
+.nome {
+    font-weight: 700;
 }
 
 .container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-}
-
-.card {
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 25px;
-    background-color: white;
-    border-radius: 10px;
-    margin: 20px;
+    justify-content: center;
+    background-color: var(--cor1);
     width: 330px;
     height: 350px;
+    border-radius: 10px;
 }
 
-.card .profile-informations {
+.informacoes {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 10px;
-    height: 100%;
+    height: 250px;
+    padding: 20px;
 }
 
-.card .profile-informations img {
+.container .informacoes img {
     border-radius: 50%;
-    margin-top: 20px;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
-.card .profile-numbers {
+.informacoes-tipo {
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.informacoes-tipo .info {
+    display: flex;
+    text-align: center;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    padding-bottom: 30px;
-    text-align: center;
-}
-
-.profile-numbers .info .counter, 
-.card .profile-informations p{
-    font-weight: 700;
-}
-
-.card .profile-informations .age,
-.card .profile-informations .city, 
-.profile-numbers .info .counter-type{
-    color: var(--text-color);
+    height: 80px;
 }
