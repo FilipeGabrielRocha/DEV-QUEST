@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    padding: 38px;
+    grid-template-columns: minmax(auto, 543px) minmax(auto, 270px);
+    grid-column-gap: 17px;
+    background-color: #F7F7F7;
+}
+
+.info-video {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .info-video .video {
+    background-color: #C4C4C4;
+    height: 217px;
+}
+
+.container .info-video .informacoes .titulo-video {
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 7px;
+}
+
+.container .info-video .informacoes .visualizacao {
+    font-size: 14px;
+    margin-bottom: 9px;
+    font-weight: 300;
+}
+
+.container .info-video .informacoes .descricao {
+    font-size: 16px;
+}
+
+.container .propaganda-videos {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .propaganda-videos .propaganda {
+    background-color: #C4C4C4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 22px 104px;
+    margin-bottom: 20px;
+    font-size: 11px;
+}
+
+.container .propaganda-videos .videos-recomendados .video-recomendado {
+    display: grid;
+    grid-template-columns: 101px auto;
+    grid-column-gap: 4px;
+    margin-bottom: 16px;
+}
+
+.container .propaganda-videos .videos-recomendados .video-recomendado .video {
+    background-color: #C4C4C4;
+    height: 71px;
+}
+
+.container .propaganda-videos .videos-recomendados .video-recomendado .video-informacoes .titulo-video {
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.container .propaganda-videos .videos-recomendados .video-recomendado .video-informacoes .autor {
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.container .propaganda-videos .videos-recomendados .video-recomendado .video-informacoes .visualizacoes {
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.container .propaganda-videos .videos-recomendados .video-recomendado .video-informacoes .tempo-publicacao {
+    font-size: 11px;
+}
